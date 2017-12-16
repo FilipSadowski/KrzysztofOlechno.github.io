@@ -22,6 +22,8 @@
     "package.json": "^2.0.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
     "react": "^16.2.0"
   }
 }
