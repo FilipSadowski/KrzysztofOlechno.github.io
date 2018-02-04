@@ -4,10 +4,11 @@
 		
         .clear { clear: both; }
 		
-        #page-wrap { width: 800px; margin: 40px auto 60px; padding: 18px; border: 5px outset gray; background-color: white; }
+        #page-wrap { display: none; width: 800px; margin: 40px auto 60px; padding: 18px; border: 5px outset gray; background-color: white; }
         #pic { float: right; margin: -30px 40px 0 0; width: 24%; height: 24%; border: 5px inset gray; filter: grayscale(90%);  }
 		#pic:hover { filter: grayscale(30%);}
 		.tel {font-weight: bold;}
+		#btn2 { display: none;}
 		
 		/*tabelka z kontaktami */
 		
@@ -26,7 +27,7 @@
 		/*o sobie */
 		
         #objective { width: 530px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; text-align:justify; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; text-align:justify; padding-bottom:20px;}
 		
 		/*bebechy*/
 		
@@ -60,7 +61,13 @@
         div.box label span { display: block; float:left; width:100px; text-align:right; padding:5px 20px 0 0; }
 		div.box .wpis { padding:10px 10px; width:200px; background-color:#d4d4d4; border-radius:5px; border: 1px double #f2f2f2; }
 		div.box .wiadomosc { padding:7px 7px; width:500px; background: #d4d4d4; border-radius:5px; border: 1px double #f2f2f2; overflow:hidden; height:100px; }
-		div.box .button	{ margin:0 0 10px 0; padding:4px 7px; background:#e3e3e3; position: relative; top:10px; left:30px; width:100px; border-radius:5px; border: 1px double #f2f2f2; font-weight: bold; }
-		div.box .button:hover { padding:5x 8px; background:#d4d4d4; font-size: 14px; }
+		div.box .button	{ margin:0 0 10px 0; padding:4px 7px; background:#e3e3e3; position: relative; left:670px; width:100px; border-radius:5px; border: 1px double #f2f2f2; font-weight: bold; }
+		div.box .button:hover { background:#d4d4d4; font-size: 14px; }
 		div.box table { width:100%; }
+		
+		/*Tabelka do formularza*/
+		
+		#tabliczka { padding: 5px; text-align:center; border-collapse: collapse;width: 80%; margin-left:30px;}
+		#ops {height: 100px;}
+		input, textarea {width:300px;}
     
